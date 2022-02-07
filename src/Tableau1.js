@@ -69,8 +69,8 @@ class Tableau1 extends Phaser.Scene{
 
 
 
-        this.joueurGauche = new Joueur('Jean-Mi','joueurGauche');
-        this.joueurDroite = new Joueur('Gyselle','joueurDroite');
+        this.joueurGauche = new Joueur('Points','joueurGauche');
+        this.joueurDroite = new Joueur('Vies','joueurDroite');
         console.log(this.joueurGauche);
 
         this.initKeyboard()
